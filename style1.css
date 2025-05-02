@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  color: #333;
+}
+
+.resume {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.sidebar {
+  background-color: #87CEEB; /* Sky Blue */
+  width: 30%;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.sidebar h1 {
+  font-size: 1.8rem;
+  color: #222;
+  margin: 20px 0 10px;
+  line-height: 1.2;
+}
+
+.sidebar .profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0077b5;
+}
+
+.sidebar .contact {
+  margin-top: 10px;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.sidebar a {
+  color: #0077b5;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.sidebar .section {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.sidebar .section h2 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.sidebar ul {
+  list-style: none;
+  font-size: 0.95rem;
+}
+
+.sidebar ul li {
+  margin-bottom: 5px;
+}
+
+.content {
+  width: 70%;
+  padding: 30px;
+}
+
+.content section {
+  margin-bottom: 30px;
+}
+
+.content h2 {
+  color: #444;
+  border-bottom: 2px solid #0077b5;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.content ul {
+  list-style: disc inside;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+.content p,
+.content li {
+  font-size: 1rem;
+  line-height: 1.5;
+}
